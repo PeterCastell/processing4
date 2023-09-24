@@ -984,7 +984,7 @@ public class JSONObject {
    *
    * @return A keySet.
    */
-  public Set keys() {
+  public Set<String> keys() {
     return this.map.keySet();
   }
 
